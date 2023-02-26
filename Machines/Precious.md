@@ -66,6 +66,7 @@ SUIDの設定不備を利用したものや、cronを利用したものなどた
 そして、`sudo -l`の結果でroot権限で特定のコマンドを実行することが可能な設定がされているのを見つける。  
 `sudo`コマンドの`-l`オプションというのは、sudoを実行するユーザーに許可されているコマンドを一覧表示するというものだ。  
 ![](images/Precious/10.png)
+
 `/opt/update_dependencies.rb`のRubyファイルを見てみると、  
 ```
 # Compare installed dependencies with those specified in "dependencies.yml"
