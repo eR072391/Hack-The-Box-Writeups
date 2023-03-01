@@ -1,2 +1,2 @@
 ## Hack The Box Writeups
-writeupをここにまとめる
+書いたwriteupをここに保管する
