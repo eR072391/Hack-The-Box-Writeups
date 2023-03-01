@@ -5,7 +5,7 @@
 After struggling to secure our secret strings for a long time, we finally figured out the solution to our problem: Make decompilation harder. It should now be impossible to figure out how our programs work! 
 ```
 
-逆コンパイルを困難にする何かをして解析を防こうとしている。  
+逆コンパイルを困難にしているらしい。  
 とりあえず`file`コマンドの結果がこれ  
 ```
 behindthescenes: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=e60ae4c886619b869178148afd12d0a5428bfe18, for GNU/Linux 3.2.0, not stripped
