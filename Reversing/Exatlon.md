@@ -17,6 +17,7 @@ exatlon_v1:     file format elf64-x86-64
 `string`コマンドで確認したらUPX、つまり実行ファイルが実行可能な状態で圧縮されていた。  
 これにより元のプログラム構造やデータがわからなくなる。  
 参考(https://xtech.nikkei.com/atcl/nxt/mag/nnw/18/111900071/052100019/)
+
 ![](images/exatlon/2.png)
 
 UPXでpackingされたファイルは`upx`コマンドで簡単にunpackingが可能だ。  
