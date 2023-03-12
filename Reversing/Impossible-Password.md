@@ -86,7 +86,7 @@ void FUN_0040085d(void)
 `__isoc99_scanf()`で入力を受け付け`local_28`変数に格納後local_10の値と比較し違った場合は`exit()`し同じ場合は進むというようになっている。  
 `local_10`の値は何か確認すると、`local_10 = "SuperSeKretKey";`と`SuperSeKretKey`という文字列で比較している。  
 
-なので、プログラム実行後`SuperSeKretKey`で最初の`if`を通過する。  
+なので、プログラム実行後`SuperSeKretKey`で最初の比較を通過する。  
 ![](images/impossiblepassword/2.png)
 
 `ltrace`コマンドでも、何と比較しているのかを確認することができる。  
