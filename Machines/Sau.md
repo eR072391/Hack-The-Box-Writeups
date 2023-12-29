@@ -1,7 +1,7 @@
 ## machine: sau
 ## ip: 10.10.11.224
 
-nmap
+nmap  
 ![](images/sau/1.png)  
 
 80番ポートがopen|filteredであり、openなのかfilteredなのか判別できなかった。  
